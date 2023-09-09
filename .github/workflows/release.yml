@@ -36,6 +36,6 @@ jobs:
     if: ${{ needs.release-please.outputs.release-created }}
     permissions:
       contents: write
-    uses: ./.github/workflows/docker-image.yml
+    uses: ./.github/workflows/push.yml
     with:
       tag-name: ${{ needs.release-please.outputs.tag-name }}
