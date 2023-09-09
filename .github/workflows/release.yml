@@ -21,7 +21,7 @@ jobs:
         uses: google-github-actions/release-please-action@v3.1.2
         id: release-please-action
         with:
-          release-type: rust
+          release-type: node
           package-name: ${{ github.repository }}
           bump-minor-pre-major: true
           bump-patch-for-minor-pre-major: true

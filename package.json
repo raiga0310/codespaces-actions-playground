@@ -1,0 +1,11 @@
+{
+  "name": "codespaces-actions-playground",
+  "version": "0.0.0",
+  "description": "Welcome to the GitHub Actions Playground! We've got everything fired up and running for you to explore GitHub Actions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
